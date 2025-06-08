@@ -2,6 +2,7 @@ html{
     background-color: lightblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
+    display: inline;
 
 }
 
@@ -11,23 +12,32 @@ h1{
     font-size: 50px;
     display: block;
     text-align: center;
-    padding: 30px;
-    margin: 0px;
-    
+    padding: 24px;
+    margin: auto;
+
     
 }
 
 
 li{
-    background-color:white;
+    background-color:aquamarine;
     color: lightcoral;
     padding: 15px;
     margin: 0px;
-    display: inline-block;
+    display: block;
 }
 
 a{
     display:inline;
     color:lightcoral;
     
+}
+
+button{
+    background-color:lightgreen;
+    color: lightcoral;
+    padding: 15px;
+    margin: 0px;
+    border-width: 5px;
+    border-color: white;
 }
